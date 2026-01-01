@@ -1,11 +1,11 @@
-Faizan-rm 🗑️
+**Faizan-rm 🗑️**
 
 A safe rm alternative with trash, restore, and auto-cleanup
 
 faizan-rm is a Linux command-line tool that works like rm, but safer.
 Instead of permanently deleting files and folders, it moves them to a user-local trash, allowing you to list, restore, or permanently delete them later.
 
-✨ Features
+✨ **Features**
 
 ✅ Safe deletion (no immediate permanent loss)
 
@@ -26,7 +26,7 @@ Instead of permanently deleting files and folders, it moves them to a user-local
 ├── files/   # Deleted files & folders
 └── info/    # JSON metadata for each item
 
-🔧 Installation
+🔧 **Installation**
 1️⃣ Build
 g++ -std=c++17 faizan_rm.cpp -o faizan-rm
 
@@ -47,7 +47,7 @@ Test:
 
 man faizan-rm
 
-🚀 Usage
+🚀 **Usage**
 Delete files safely
 faizan-rm file.txt
 
@@ -119,7 +119,7 @@ Config file:
 
 ~/.local/share/Faizan_rm/info/Faizan_rm_cleanupdays.json
 
-📄 Help
+📄 **Help**
 faizan-rm -h
 
 
@@ -127,7 +127,7 @@ or
 
 man faizan-rm
 
-⚠️ Notes
+⚠️ **Notes**
 
 Existing files are never overwritten during restore
 
@@ -137,9 +137,6 @@ This does not integrate with GNOME/KDE trash (gio trash)
 
 Designed for Linux systems
 
-👤 Author
+👤 **Author**
 
-Faizan Momin
-
-Get smarter responses, upload files and images, and more.
-Log in
+**Faizan Momin**
